@@ -1,0 +1,46 @@
+/*
+ Theme Name:   Christopher House Theme
+ Theme URI:    
+ Description:  Theme for christopherhouse.org, to replicate their existing site and add responsive functionality
+ Author:       Ian Monk
+ Author URI:   http://www.ianmonkdesign.com
+ Template:     responsive-mobile
+ Version:      1.0.0
+ Tags:         
+ Text Domain:  responsive-mobile-child
+*/
+
+
+/* =Theme customization starts here
+
+-------------------------------------------------------------- */
+
+.front-page .content-area { background: #fff; }
+
+#header { background: #fff; }
+#header .container { max-width: 920px; }
+
+#main-menu-container { background: transparent; }
+#main-menu { max-width: 920px; }
+#main-navigation { background: #3c9cd7; }
+#main-navigation ul li a:hover { color: #fff; }
+
+#featured-area { max-width: 980px; }
+#featured-area #featured-content { width: 100%; clear: both; margin-bottom: 20px; color: #333; padding: 20px 30px 0px; }
+#featured-area #featured-content .flexslider { width: 590px; height: 262px; float: left; border: none; box-shadow: none; }
+#featured-area #featured-content ul.home-menu { margin-left: 610px; padding: 0px; }
+#featured-area #featured-content ul.home-menu li { list-style: none; list-style-image: none; list-style-type: none; padding: 0px; margin: 0 0 1px; }
+#featured-area #featured-content ul.home-menu li a { padding: 15px 25px; display: block; background: #10507F; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 16px; }
+#featured-area #featured-content ul.home-menu li a:hover { background: #3c9cd7; }
+#featured-area #featured-content ul.home-menu { margin-left: 610px; }
+
+#featured-area #featured-image { width: 100%; clear: both; margin-bottom: 20px; color: #333; text-align: left; padding: 0px 30px; }
+#featured-area #featured-image .left { width: 560px; float: left; text-align: left; }
+#featured-area #featured-image h2 { text-align: left; color: #10507F; }
+#featured-area #featured-image p { text-align: left; }
+#featured-area #featured-image #partners { margin-left: 610px; }
+#featured-area #featured-image #partners h2 { color: #fff; font-weight: bold; background: #3c9cd7; font-size: 16px; padding: 6px 0; text-align: center; }
+#featured-area #featured-image #partners .flexslider { border: none; box-shadow: none; }
+
+.front-page #widgets { background: #fff; max-width: 960px; }
+.front-page #widgets h3 { text-align: left; background: #ddd; font-size: 18px; padding: 8px; margin: 0px; }
