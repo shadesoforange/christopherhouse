@@ -39,6 +39,12 @@
 #featured-area #featured-content h2.featured-subtitle { display: none; }
 #featured-area #featured-content h2 { text-align: left; color: #10507F; margin: 0px 0px 15px; }
 #featured-area #featured-content p { text-align: left; margin: 0px; }
+@media (max-width: 600px) { 
+	#featured-area #featured-content { width: 100%; margin: 0px 0px 20px; }
+	#featured-area #featured-content .flexslider { width: 100%; }
+	#featured-area #featured-content .flexslider .slide-image { width: 100%; height: auto; }
+}
+
 
 #featured-area #featured-image { width: 295px; color: #333; padding: 0px; text-align: left; margin: 30px 0 0; }
 #featured-area #featured-image ul.home-menu { padding: 0px; margin-bottom: 30px; }
